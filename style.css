@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #333;
+}
+header {
+  background: #222;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+main {
+  padding: 20px;
+}
+.hero {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.caixa-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.box {
+  background: #f4f4f4;
+  border-radius: 8px;
+  padding: 15px;
+  max-width: 300px;
+  text-align: center;
+}
+.box img {
+  width: 100%;
+  border-radius: 8px;
+}
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+}
+.age-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.9);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+.age-overlay button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+}
